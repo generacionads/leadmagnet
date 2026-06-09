@@ -1,4 +1,4 @@
-import Logo from '@/components/Logo';
+import Image from 'next/image';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
@@ -11,10 +11,10 @@ export default function ContactPage() {
     <div className="flex flex-col min-h-full">
       {/* Header */}
       <header className="w-full bg-white border-b border-gray-100 px-4 py-4">
-        <div className="max-w-3xl mx-auto flex items-center gap-3">
+        <div className="max-w-3xl mx-auto flex items-center justify-center gap-3">
           <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <Logo size={36} />
-            <span className="font-medium text-gray-900 text-lg tracking-tight">Herramientas</span>
+            <Image src="/Group 6 (2).png" alt="Generación Ads" width={36} height={36} priority />
+            <span className="font-medium text-gray-900 text-lg tracking-tight">Generación Ads</span>
           </a>
         </div>
       </header>

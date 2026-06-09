@@ -65,10 +65,9 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-sm font-medium text-gray-600">Cuéntanos tu situación *</label>
+        <label className="text-sm font-medium text-gray-600">Cuéntanos tu situación</label>
         <textarea
           name="mensaje"
-          required
           rows={4}
           placeholder="¿Qué canales usas ahora? ¿Cuáles son tus objetivos? ¿Qué está frenando tus resultados?"
           className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-300 outline-none resize-none focus:border-[#9536B6] focus:ring-2 focus:ring-[#9536B6]/10 transition-all"
@@ -91,7 +90,7 @@ export default function ContactForm() {
       </button>
 
       <p className="text-xs text-gray-400 font-light">
-        * Campos obligatorios. No compartimos tus datos con terceros.
+        * Nombre y email obligatorios. No compartimos tus datos con terceros.
       </p>
     </form>
   );
