@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-100 py-6 px-4">
-        <p className="text-center text-xs text-gray-400 font-light">
+        <p className="text-center text-xs text-gray-400 font-normal">
           Datos de referencia basados en análisis de cuentas activas en España (2024–2025).
         </p>
       </footer>

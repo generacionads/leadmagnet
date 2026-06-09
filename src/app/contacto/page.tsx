@@ -30,7 +30,7 @@ export default function ContactPage() {
             <h1 className="text-3xl md:text-4xl font-medium text-gray-900 leading-tight">
               Cuéntanos cómo estás invirtiendo en publicidad
             </h1>
-            <p className="text-gray-500 text-lg font-light">
+            <p className="text-gray-500 text-lg font-normal">
               Analizamos tus cuentas y te decimos exactamente qué está frenando tu rendimiento — sin compromiso.
             </p>
           </div>
@@ -45,7 +45,7 @@ export default function ContactPage() {
               <div key={item.title} className="rounded-2xl bg-white border border-gray-100 p-4 flex flex-col gap-2">
                 <span className="text-2xl">{item.icon}</span>
                 <p className="text-sm font-medium text-gray-900">{item.title}</p>
-                <p className="text-xs text-gray-400 font-light leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-gray-400 font-normal leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
 
       {/* Footer */}
       <footer className="border-t border-gray-100 py-6 px-4">
-        <p className="text-center text-xs text-gray-400 font-light">
+        <p className="text-center text-xs text-gray-400 font-normal">
           Datos de referencia basados en análisis de cuentas activas en España (2024–2025).
         </p>
       </footer>

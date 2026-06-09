@@ -42,7 +42,7 @@ export default function ContactForm() {
           </svg>
         </div>
         <h2 className="text-2xl font-medium text-gray-900">¡Mensaje recibido!</h2>
-        <p className="text-gray-500 font-light max-w-sm">
+        <p className="text-gray-500 font-normal max-w-sm">
           Nos pondremos en contacto contigo en las próximas 24 horas.
         </p>
         <a href="/" className="mt-2 text-sm font-medium underline underline-offset-2" style={{ color: '#9536B6' }}>
@@ -89,7 +89,7 @@ export default function ContactForm() {
         {status === 'pending' ? 'Enviando…' : 'Solicitar diagnóstico gratuito'}
       </button>
 
-      <p className="text-xs text-gray-400 font-light">
+      <p className="text-xs text-gray-400 font-normal">
         * Nombre y email obligatorios. No compartimos tus datos con terceros.
       </p>
     </form>

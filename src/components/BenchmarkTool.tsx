@@ -36,7 +36,7 @@ export default function BenchmarkTool() {
         <h1 className="text-3xl md:text-4xl font-medium text-gray-900 leading-tight">
           Benchmark de Publicidad Digital
         </h1>
-        <p className="text-gray-500 text-lg font-light max-w-xl mx-auto">
+        <p className="text-gray-500 text-lg font-normal max-w-xl mx-auto">
           Compara tus métricas con los rangos de mercado según tu sector y canal publicitario.
         </p>
       </div>
@@ -76,7 +76,7 @@ export default function BenchmarkTool() {
       {!data && (
         <div className="rounded-2xl border-2 border-dashed border-gray-200 py-16 text-center">
           <div className="text-4xl mb-3">📊</div>
-          <p className="text-gray-400 font-light">
+          <p className="text-gray-400 font-normal">
             Selecciona un sector y un canal para ver los rangos de referencia.
           </p>
         </div>
@@ -119,7 +119,7 @@ export default function BenchmarkTool() {
         <div className="rounded-2xl bg-gray-50 border border-gray-100 p-6 flex flex-col sm:flex-row items-center gap-4 justify-between">
           <div>
             <p className="font-medium text-gray-900">¿Quieres mejorar tus resultados?</p>
-            <p className="text-sm text-gray-500 font-light">Reserva un diagnóstico gratuito y te contamos qué está frenando tu rendimiento.</p>
+            <p className="text-sm text-gray-500 font-normal">Reserva un diagnóstico gratuito y te contamos qué está frenando tu rendimiento.</p>
           </div>
           <a
             href="/contacto"

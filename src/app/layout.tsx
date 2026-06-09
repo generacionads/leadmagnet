@@ -4,6 +4,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Benchmark de Publicidad Digital',
   description: 'Compara tus métricas con los rangos de mercado según tu sector y canal publicitario.',
+  icons: {
+    icon: '/Group 6 (2).png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
